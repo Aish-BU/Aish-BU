@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Snake Game</title>
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    canvas {
+      background: #000;
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #fff;
+    }
+    p {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Snake Game</h1>
+  <canvas id="game" width="400" height="400"></canvas>
+  <p>Use the arrow keys to control the snake.</p>
+
+  <script>
+    // Get the canvas and its context
+    const canvas = document.getElementById('game');
+    const ctx = canvas.getContext('2d');
+
+    // Set the size of a grid cell
+    const grid = 20;
+    let count = 0;
+
+    // Snake object
+    const snake = {
+      x: 160,
+      y: 160,
+      dx: grid,
+      dy: 0,
+      cells: [],
+      maxCells: 4
+    };
+
+    // Apple object
+    const apple = {
+      x: 320,
+      y: 320
+    };
+
+    // Helper function to get a random integer between min and max
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    // Main game loop
+    function gameLoop() {
+      requestAnimationFrame(gameLoop);
+
+      // Slow the game loop to ~15 fps
+      if (++count < 4) {
+        return;
+      }
+      count = 0;
+
+      // Clear the canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Move the snake by adding velocity to its position
+      snake.x += snake.dx;
+      snake.y += snake.dy;
+
+      // Wrap snake position when it goes off the canvas
+      if (snake.x < 0) {
+        snake.x = canvas.width - grid;
+      } else if (snake.x >= canvas.width) {
+        snake.x = 0;
+      }
+      if (snake.y < 0) {
+        snake.y = canvas.height - grid;
+      } else if (snake.y >= canvas.height) {
+        snake.y = 0;
+      }
+
+      // Keep track of snake cells (front is the head)
+      snake.cells.unshift({ x: snake.x, y: snake.y });
+      if (snake.cells.length > snake.maxCells) {
+        snake.cells.pop();
+      }
+
+      // Draw the apple
+      ctx.fillStyle = 'red';
+      ctx.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+
+      // Draw the snake and check for collisions
+      ctx.fillStyle = 'lime';
+      snake.cells.forEach(function(cell, index) {
+        ctx.fillRect(cell.x, cell.y, grid - 1, grid - 1);
+
+        // Snake eats apple
+        if (cell.x === apple.x && cell.y === apple.y) {
+          snake.maxCells++;
+          apple.x = getRandomInt(0, canvas.width / grid) * grid;
+          apple.y = getRandomInt(0, canvas.height / grid) * grid;
+        }
+
+        // Check collision with all cells after this one (snake eats itself)
+        for (let i = index + 1; i < snake.cells.length; i++) {
+          if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+            // Reset game state
+            snake.x = 160;
+            snake.y = 160;
+            snake.cells = [];
+            snake.maxCells = 4;
+            snake.dx = grid;
+            snake.dy = 0;
+            apple.x = getRandomInt(0, canvas.width / grid) * grid;
+            apple.y = getRandomInt(0, canvas.height / grid) * grid;
+          }
+        }
+      });
+    }
+
+    // Listen for keyboard events to control the snake
+    document.addEventListener('keydown', function(e) {
+      // Left arrow key
+      if (e.which === 37 && snake.dx === 0) {
+        snake.dx = -grid;
+        snake.dy = 0;
+      }
+      // Up arrow key
+      else if (e.which === 38 && snake.dy === 0) {
+        snake.dx = 0;
+        snake.dy = -grid;
+      }
+      // Right arrow key
+      else if (e.which === 39 && snake.dx === 0) {
+        snake.dx = grid;
+        snake.dy = 0;
+      }
+      // Down arrow key
+      else if (e.which === 40 && snake.dy === 0) {
+        snake.dx = 0;
+        snake.dy = grid;
+      }
+    });
+
+    // Start the game loop
+    requestAnimationFrame(gameLoop);
+  </script>
+</body>
+</html>
