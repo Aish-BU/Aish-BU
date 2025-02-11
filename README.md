@@ -6,7 +6,7 @@ I am a dynamic, data-driven marketing strategist passionate about transforming i
 
 ## About Me
 
-- 🎓 **MBA in Marketing & Statistics** from JECRC University, Jaipur  
+- 🎓 **MBA in Finance & Statistics** from JECRC University, Jaipur  
 - 🎓 **Bachelors in Business Administration** from Amity University, Mumbai  
 - 🎓 Currently pursuing an **M.S. in Applied Business Analytics** at Boston University  
 - 💬 Passionate about machine learning, predictive analytics, and building interactive, stateful chatbots using cutting-edge tools like LangChain and OpenAI.
