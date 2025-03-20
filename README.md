@@ -1,7 +1,7 @@
 # Hello, I'm Aishwarya! 👋
 
-I am a data-driven strategist passionate about transforming insights into innovative solutions. Blending creativity with analytical rigor, I thrive at the intersection of business strategy and data science.
----
+**I am a data-driven strategist passionate about transforming insights into innovative solutions. Blending creativity with analytical rigor, I thrive at the intersection of business strategy and data science.
+**---
 
 ## About Me
 
