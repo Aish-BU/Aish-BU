@@ -89,8 +89,7 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 ## 📫 Let's Connect!
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/aishwarya-malhotra-78546275/)
-- 📬 Email: [your-email@example.com](mailto:your-email@example.com)
-- 🌍 [Personal Site / Portfolio](ADD_LINK_IF_ANY)
+- 📬 Email: [aish7@bu.edu](mailto:aish7@bu.edu)
 
 ---
 
