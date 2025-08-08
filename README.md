@@ -1,95 +1,103 @@
-# Hello, I'm Aishwarya! 👋
+# 👋 Hi, I'm Aishwarya Malhotra
 
-**I am a data-driven strategist passionate about transforming insights into innovative solutions. Blending creativity with analytical rigor, I thrive at the intersection of business strategy and data science.
-**---
+I'm a Data & Business Analyst with 5+ years of experience helping banks, fintechs, and cross-functional teams turn complex data into actionable insights and robust solutions. My expertise lies at the intersection of **finance, analytics, and technology**—from building machine learning pipelines for credit risk to automating regulatory reporting with cloud tools.
 
-## About Me
-
-- 🎓 **M.S. in Applied Business Analytics** at Boston University.
-- 🎓 **MBA in Finance & Statistics** from JECRC University, Jaipur  
-- 🎓 **Bachelors in Business Administration** from Amity University, Mumbai    
-- 💬 Passionate about machine learning, predictive analytics, and building interactive, stateful chatbots using cutting-edge tools like LangChain and OpenAI.
-- 🌟 I thrive on solving complex business challenges with data and innovative thinking.
+- 📍 Based in Boston, USA  
+- 🎓 MS in Applied Business Analytics (Boston University)  
+- 👩‍🔬 Former Research Assistant at BU (Prof. Pinsky, Quantitative Finance)  
+- 🔬 **Currently:** Visiting Researcher – Data Science & Quantitative Finance at Boston University 
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🚀 What I Do
 
-### Programming Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-</p>
-
-### Cloud & Big Data Technologies
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-</p>
-
-### Databases & Warehousing
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS%20Redshift-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Redshift" />
-  <img src="https://img.shields.io/badge/Snowflake-0078D4?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
-
-### Data Analytics & Visualization
-<p align="left">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI" />
-</p>
-
-### Machine Learning, Statistical Analysis & Predictive Modeling
-- **Python Libraries:**  
-  *Pandas, NumPy, Scikit-Learn, Statsmodels, TensorFlow, PyTorch, SciPy*
-- **Statistical Techniques:**  
-  *A/B Testing, t-tests, Chi-Square tests, ANOVA, Bayesian Inference, Hypothesis Testing, Regression (Linear, Logistic, Ridge, Lasso, GLMs), ARIMA, Time Series Forecasting*
-- **Machine Learning Algorithms:**  
-  *k-NN, SVM, Decision Trees, Random Forest, XGBoost*
-- **Clustering & Dimensionality Reduction:**  
-  *K-Means, DBSCAN, PCA, t-SNE*
-- **Other Methods:**  
-  *Monte Carlo Simulations, Experimental Design (DOE, Markov Chains)*
-
-### Additional Tools & Technologies
-- **Chatbot & NLP:**  
-  *LangChain & OpenAI* — Building stateful, context-aware chatbots with external data integrations.
-- **Data Engineering:**  
-  *ETL Pipelines, Data Modeling, Query Optimization* — Migrated Excel-based tools to scalable, modular Python applications.
+- Credit & Financial Risk Modeling (Basel III/IRB, regulatory compliance, ML scorecards)
+- Fraud Analytics & Anomaly Detection (real-time monitoring, AWS, dashboarding)
+- Data Science & Machine Learning (feature engineering, XGBoost, Python, R)
+- Data Engineering (AWS Glue, Redshift, ETL pipelines, Databricks)
+- Visualization & Reporting (Power BI, Tableau, real-time dashboards)
+- Agile Project Management (requirements gathering, user stories, Jira)
 
 ---
 
-## Fun Facts & Interests
+## 🏆 Featured Projects
 
-- 🌍 I'm fascinated by how technology can simplify complex business challenges.
-- 🎨 In my spare time, I enjoy dancing. I am a professional Indian Classical Kathak dancer
-- 📚 Always eager to learn—whether it’s mastering a new tool or discovering a fresh perspective on data.
-
----
-
-## Inspirational Quote
-
-> "Data really powers everything that we do."  
-> — **Jeff Weiner**
+### Basel III Regulatory Reporting Automation (Illimity Bank)  
+ 
+- Automated end-to-end Basel III reporting pipeline using AWS Glue and Python, standardizing and validating Excel inputs from multiple business units.
+- Reduced reporting delays by 40% and improved data accuracy to 99%.
+- Enabled real-time dashboards in Power BI, empowering compliance teams with live risk metrics and full audit traceability.
+- Ensured regulatory alignment and mitigated audit risks by designing robust, auditable data flows.
 
 ---
 
-## Let's Connect
-
-<p align="center">
-  <a href="mailto:aish7@bu.edu">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://www.linkedin.com/in/aishwarya-malhotra/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/yourgithubusername">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+### Credit Risk Scoring & Scorecard Modeling (Lending Club Dataset)  
+*[Repository Link](https://github.com/Aish-BU/Credit_Risk_Modelling)*  
+- Built modular machine learning pipelines on 2M+ digital loans for PD, LGD, and EAD using Logistic Regression and XGBoost.
+- Achieved a 31% improvement in default prediction over baseline, with production-ready scorecards for real-time loan approvals.
+- Enabled rapid retraining and compliance with regulatory stress testing guidelines.
+- Provided business users with interpretable, actionable models and performance dashboards.
 
 ---
 
-*Thanks for stopping by! Let’s innovate and create something extraordinary together!*
+### Real-Time Fraud Detection & Anomaly Analytics (Illimity Bank)  
+ 
+- Developed and deployed ML-based anomaly detection models (Isolation Forest) for real-time fraud monitoring.
+- Reduced fraud detection latency by 60% and cut false positives by 35%.
+- Integrated AWS Lambda for streaming alerts and Power BI for dynamic visualization.
+- Empowered analysts with deeper transaction insights and improved compliance audit readiness.
+
+---
+
+### Sector Rotation Strategy Research (Boston University, Research)  
+*[Repository Link](https://github.com/Aish-BU/SPY_ETFs_Rotation_Trading_Strategy)* 
+- Designed and tested a novel median sector rotation strategy for S&P 500 ETFs using 25 years of historical data.
+- Demonstrated that the strategy doubled long-term returns versus buy-and-hold and halved drawdowns, especially during major crises.
+- Provided a simple, practical approach for retail investors seeking robust performance with lower risk.
+- Published key findings and code for transparency and reproducibility.
+
+---
+
+### Airbnb Zurich Data Mining Project  
+*[Repository Link](https://github.com/Aish-BU/Airbnb_Project)* 
+- Analyzed Airbnb Zurich listings using clustering, regression, and classification to uncover price drivers and segment the market.
+- Achieved R² > 0.8 for price prediction and identified key factors impacting occupancy and revenue.
+- Built interactive dashboards for hosts and platform managers to support data-driven pricing and listing optimization.
+- Offered actionable recommendations that improved occupancy by 10–15% for participating hosts.
+
+---
+
+## 🛠️ Tech Toolbox
+
+**Languages:** Python (Pandas, NumPy, scikit-learn, TensorFlow, PySpark, SciPy), R, SQL  
+**Cloud/Big Data:** AWS (Glue, Redshift, S3, SageMaker), Databricks, Snowflake, Hadoop  
+**Analytics/Visualization:** Tableau, Power BI, Matplotlib, Seaborn, SPSS  
+**Engineering:** Data Modeling, ETL, Azure Data Factory, MySQL  
+**Project Management:** Jira, Confluence, Agile/Scrum, Figma  
+**Other:** Git, CI/CD, API integration
+
+---
+
+## 📈 Quick Stats
+
+- 🚀 Improved credit model accuracy by **28%** and reduced fraud alert time by **60%**
+- 📊 Managed data pipelines processing **2M+ records** for regulatory compliance
+- 🥇 Published research on ETF sector rotation strategies & portfolio optimization
+
+---
+
+## 📫 Let's Connect!
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/aishwarya-malhotra-78546275/)
+- 📬 Email: [your-email@example.com](mailto:your-email@example.com)
+- 🌍 [Personal Site / Portfolio](ADD_LINK_IF_ANY)
+
+---
+
+## 🌟 Currently
+
+As a **Visiting Researcher in Data Science & Quantitative Finance**, I’m actively exploring new methods in risk analytics, financial modeling, and investment strategy research. I’m always open to connect on innovative projects, research collaborations, or analytics-driven roles.
+
+> *"Bridging the gap between data and business strategy—one solution at a time."*
+
+---
