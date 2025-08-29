@@ -9,18 +9,57 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 
 ---
 
-## 🚀 What I Do
+## 🚀 What I Do  
 
-- Credit & Financial Risk Modeling (Basel III/IRB, regulatory compliance, ML scorecards)
-- Fraud Analytics & Anomaly Detection (real-time monitoring, AWS, dashboarding)
-- Data Science & Machine Learning (feature engineering, XGBoost, Python, R)
-- Data Engineering (AWS Glue, Redshift, ETL pipelines, Databricks)
-- Visualization & Reporting (Power BI, Tableau, real-time dashboards)
-- Agile Project Management (requirements gathering, user stories, Jira)
+### 🏦 Credit & Financial Risk Modeling (FinTech/Banking)  
+- Developed **PD, LGD, EAD, EL models** using ML (XGBoost, Logistic Regression) aligned with **Basel III & IFRS-9**.  
+- Conducted **stress testing & scenario analysis** for portfolio resilience and capital optimization.  
+
+### 🔐 Fraud Analytics & AML Monitoring  
+- Built **real-time anomaly detection systems** in Python/Databricks, integrated with **AWS + SIEM**.  
+- Reduced fraud detection latency by **60%**, cutting false positives and accelerating investigations.  
+
+### 📊 Marketing Science & Experimentation (Tech/Product)  
+- Designed **incrementality testing frameworks** (Bayesian Structural Time Series, causal inference).  
+- Ran **A/B and multivariate experiments** on product flows and campaigns, quantifying **true lift**.  
+
+### ☁️ Data Engineering & Cloud Analytics  
+- Automated **ETL pipelines** with AWS Glue, Redshift, Snowflake, and Databricks.  
+- Delivered governed **data models** for both risk reporting and marketing analytics workflows.  
+
+### 📈 Visualization & BI Dashboards  
+- Built **Tableau, Power BI, and Looker dashboards** for portfolio risk monitoring, KPI tracking, and product experimentation.  
+
+### 🤝 Collaboration & Agile  
+- Partnered with cross-functional teams (Risk, Compliance, Marketing, Product, UX).  
+- Translated requirements into **Epics, acceptance criteria, and Jira deliverables** for scalable deployments.  
+
 
 ---
 
 ## 🏆 Featured Projects
+
+### 🔹 Project Highlight: Flipkart E-Commerce Product Analytics & Experimentation 🔹
+
+At Flipkart, I led the **data science workstream** for experimentation across search, checkout, and recommendation systems, partnering with Product, UX, and Marketing teams to optimize conversion funnels.
+
+✅ **Technical Contributions:**
+- Designed and executed **A/B and multivariate test frameworks** with defined **KPIs, sample size calculations, and power analysis**  
+- Built **SQL pipelines (Snowflake/Redshift)** and **Python-based statistical models** to validate experiments and measure lift with confidence intervals  
+- Applied **causal inference and segmentation analysis** to uncover heterogeneous treatment effects across customer cohorts  
+- Optimized checkout flows (↓ **18% cart abandonment**) and recommendation engines (↑ **12% average order value**)  
+- Automated **Tableau dashboards & retrospective analyses**, integrating results into the product roadmap for continuous experimentation  
+
+💡 **Impact:**  
+Established a **scalable experimentation framework** that accelerated product release cycles, delivered measurable revenue impact, and strengthened **data-driven decision making** across cross-functional teams.  
+
+📊 **Tech Stack:**  
+SQL (Snowflake, Redshift) | Python (Pandas, NumPy, SciPy, Scikit-learn, Statsmodels) | Experimentation Frameworks (A/B, MVT, causal inference) | Tableau | KPI Automation  
+
+✨ Passionate about leveraging **applied statistics, experimentation frameworks, and scalable analytics pipelines** to optimize e-commerce platforms and drive measurable business growth.  
+
+\#Experimentation \#ABTesting \#CausalInference \#SQL \#Python \#Tableau \#Ecommerce \#ProductAnalytics \#DataScience
+
 
 ### Basel III Regulatory Reporting Automation (Illimity Bank)  
  
@@ -31,21 +70,71 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 
 ---
 
-### Credit Risk Scoring & Scorecard Modeling (Lending Club Dataset)  
+### 🔹 Project Highlight: Credit Risk Modeling – PD, LGD, EAD, and EL 🔹
 *[Repository Link](https://github.com/Aish-BU/Credit_Risk_Modelling)*  
-- Built modular machine learning pipelines on 2M+ digital loans for PD, LGD, and EAD using Logistic Regression and XGBoost.
-- Achieved a 31% improvement in default prediction over baseline, with production-ready scorecards for real-time loan approvals.
-- Enabled rapid retraining and compliance with regulatory stress testing guidelines.
-- Provided business users with interpretable, actionable models and performance dashboards.
+
+Built a credit risk modeling framework in Python to calculate **Probability of Default (PD)**, **Loss Given Default (LGD)**, **Exposure at Default (EAD)**, and **Expected Loss (EL)**, aligning with Basel III/IFRS-9 standards.
+
+✅ **Technical Contributions:**
+- Developed classification models (**Logistic Regression, Random Forest, XGBoost**) to estimate PD from borrower characteristics and macroeconomic indicators  
+- Applied regression models and **survival analysis** to forecast LGD, incorporating collateral values and recovery rates  
+- Estimated EAD using credit conversion factors and exposure dynamics; combined PD, LGD, and EAD to compute portfolio-level EL  
+- Conducted **stress testing and scenario analysis** to evaluate model resilience under macroeconomic shocks  
+- Validated models using **ROC/AUC, confusion matrix, precision/recall, and backtesting** to ensure robustness and regulatory alignment  
+
+💡 **Impact:**  
+Delivered a scalable, **machine learning–driven framework** for credit risk estimation, enabling accurate capital allocation, risk segmentation, and regulatory compliance.  
+
+📊 **Tech Stack:**  
+Python (Pandas, NumPy, Scikit-learn, Statsmodels) | Risk Analytics | Basel III & IFRS-9 | Logistic Regression | XGBoost | Survival Analysis | Stress Testing  
+
+✨ Passionate about combining **machine learning and financial risk modeling** to drive smarter lending decisions, improve portfolio resilience, and strengthen regulatory compliance.  
+
+\#CreditRisk \#MachineLearning \#RiskManagement \#BaselIII \#IFRS9 \#PD \#LGD \#EAD \#ExpectedLoss \#Python \#DataScience
+
 
 ---
 
-### Real-Time Fraud Detection & Anomaly Analytics (Illimity Bank)  
- 
-- Developed and deployed ML-based anomaly detection models (Isolation Forest) for real-time fraud monitoring.
-- Reduced fraud detection latency by 60% and cut false positives by 35%.
-- Integrated AWS Lambda for streaming alerts and Power BI for dynamic visualization.
-- Empowered analysts with deeper transaction insights and improved compliance audit readiness.
+### 🔹 Project Highlight: Incrementality Testing Using Bayesian Structural Time Series (BSTS) 🔹
+
+Developed an incrementality testing framework to measure the causal impact of in-store media campaigns using **Bayesian Structural Time Series (BSTS)** models.
+
+✅ **Technical Contributions:**
+- Built counterfactual models to estimate baseline performance (what would have occurred without intervention)  
+- Quantified incremental lift of marketing campaigns with credible intervals and posterior distributions  
+- Incorporated time-series components (**trend, seasonality, external regressors**) to improve robustness and interpretability  
+- Delivered actionable performance metrics (**ROI, lift, uncertainty bounds**) to marketing teams for campaign optimization  
+
+💡 **Impact:**  
+Enabled causal measurement of campaign effectiveness beyond correlation, helping decision-makers allocate spend with confidence and identify true incremental business value from marketing initiatives.  
+
+📊 **Tech Stack:**  
+Python (PyMC3, Prophet, Statsmodels) | Bayesian Inference | Time-Series Forecasting | Causal Impact Modeling | Experimentation Analytics  
+
+\#Bayesian \#CausalInference \#Incrementality \#BSTS \#MarketingAnalytics \#Experimentation \#DataScience \#Python
+
+
+### 🔹 Project Highlight: Real-Time Fraud Detection & AML Monitoring 🔹
+
+Traditional **rule-based AML systems** struggled with high false positives and slow detection, delaying investigations and increasing compliance risk. To solve this, I **developed and deployed ML-powered anomaly detection models** integrated into a real-time fraud monitoring pipeline.
+
+✅ **What I did:**
+- Built and trained **anomaly detection & predictive models** in **Python (XGBoost, clustering, decision trees)**
+- Deployed models on **Databricks**, integrated with **SIEM workflows** for real-time alerting  
+- Reduced fraud detection latency by **60%**, accelerating investigative efficiency  
+- Augmented rule-based AML systems with ML-driven insights to cut false positives  
+- Delivered dashboards for **investigators and compliance teams** in Tableau/Power BI for transparent monitoring  
+
+💡 **Impact:**  
+This project significantly improved the **speed, accuracy, and efficiency** of fraud and AML monitoring, enabling compliance teams to respond to threats faster and with fewer false alerts.
+
+📊 **Skills applied:**  
+Python | Databricks | SQL | SIEM Integration | Tableau | Power BI | Fraud Analytics | AML Compliance | Real-Time Monitoring  
+
+✨ Excited to keep advancing **fraud detection and risk resilience** with scalable, AI-driven solutions in fintech and banking.  
+
+\#FraudDetection \#AML \#RiskManagement \#MachineLearning \#Compliance \#RealTimeAnalytics \#Databricks \#FinancialCrime
+
 
 ---
 
