@@ -96,6 +96,20 @@ Python (Pandas, NumPy, Scikit-learn, Statsmodels) | Risk Analytics | Basel III &
 
 ---
 
+### 🎵 Spotify KNN Classification Project  
+*[Repository Link](https://github.com/Aish-BU/Spotify-Music-Recommendation-Listener-Preference-Analysis)* 
+
+A dataset of **2,017 Spotify songs** with 17 audio features (danceability, valence, acousticness, speechiness, etc.) was used to predict whether a listener (*George*) liked (`1`) or disliked (`0`) each track.  
+
+The goal was to build a **classification model** that outperforms the baseline 50% accuracy.  
+
+I conducted **t-tests** to identify significant predictors (danceability, speechiness, valence, acousticness) and removed non-significant ones (tempo, energy, liveness). The data was **normalized** and split into **60% training (1,211 songs)** and **40% validation (806 songs)**. KNN models were evaluated for **k = 1–35**.  
+
+The **best performance occurred at k = 31**, achieving **~65.6% accuracy** (~15% above baseline). Liked songs were more danceable (+0.058), higher in valence (+0.056), and more speech-heavy (+0.027), while disliked songs were more acoustic (+0.076). For example, *“Enemy – Arcane”* by Imagine Dragons was correctly predicted as **liked**.  
+
+**Conclusion:** KNN effectively captured music preference patterns from acoustic features, demonstrating its potential for **personalized recommendation systems**.  
+---
+
 ### Incrementality Testing Using Bayesian Structural Time Series (BSTS) 
 
 Developed an incrementality testing framework to measure the causal impact of in-store media campaigns using **Bayesian Structural Time Series (BSTS)** models.
