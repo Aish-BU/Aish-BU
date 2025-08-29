@@ -39,6 +39,15 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 
 ## 🏆 Featured Projects
 
+### Sector Rotation Strategy Research (Boston University, Research)  
+*[Repository Link](https://github.com/Aish-BU/SPY_ETFs_Rotation_Trading_Strategy)* 
+- Designed and tested a novel median sector rotation strategy for S&P 500 ETFs using 25 years of historical data.
+- Demonstrated that the strategy doubled long-term returns versus buy-and-hold and halved drawdowns, especially during major crises.
+- Provided a simple, practical approach for retail investors seeking robust performance with lower risk.
+- Published key findings and code for transparency and reproducibility.
+
+---
+
 ### Flipkart E-Commerce Product Analytics & Experimentation 
 
 At Flipkart, I led the **data science workstream** for experimentation across search, checkout, and recommendation systems, partnering with Product, UX, and Marketing teams to optimize conversion funnels.
@@ -154,14 +163,6 @@ Python | Databricks | SQL | SIEM Integration | Tableau | Power BI | Fraud Analyt
 
 ---
 
-### Sector Rotation Strategy Research (Boston University, Research)  
-*[Repository Link](https://github.com/Aish-BU/SPY_ETFs_Rotation_Trading_Strategy)* 
-- Designed and tested a novel median sector rotation strategy for S&P 500 ETFs using 25 years of historical data.
-- Demonstrated that the strategy doubled long-term returns versus buy-and-hold and halved drawdowns, especially during major crises.
-- Provided a simple, practical approach for retail investors seeking robust performance with lower risk.
-- Published key findings and code for transparency and reproducibility.
-
----
 
 ### Airbnb Zurich Data Mining Project  
 *[Repository Link](https://github.com/Aish-BU/Airbnb_Project)* 
