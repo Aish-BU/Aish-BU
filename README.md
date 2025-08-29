@@ -39,7 +39,7 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 
 ## 🏆 Featured Projects
 
-### 🔹 Project Highlight: Flipkart E-Commerce Product Analytics & Experimentation 🔹
+### Flipkart E-Commerce Product Analytics & Experimentation 
 
 At Flipkart, I led the **data science workstream** for experimentation across search, checkout, and recommendation systems, partnering with Product, UX, and Marketing teams to optimize conversion funnels.
 
@@ -70,7 +70,7 @@ SQL (Snowflake, Redshift) | Python (Pandas, NumPy, SciPy, Scikit-learn, Statsmod
 
 ---
 
-### 🔹 Project Highlight: Credit Risk Modeling – PD, LGD, EAD, and EL 🔹
+### Credit Risk Modeling – PD, LGD, EAD, and EL 
 *[Repository Link](https://github.com/Aish-BU/Credit_Risk_Modelling)*  
 
 Built a credit risk modeling framework in Python to calculate **Probability of Default (PD)**, **Loss Given Default (LGD)**, **Exposure at Default (EAD)**, and **Expected Loss (EL)**, aligning with Basel III/IFRS-9 standards.
@@ -95,7 +95,7 @@ Python (Pandas, NumPy, Scikit-learn, Statsmodels) | Risk Analytics | Basel III &
 
 ---
 
-### 🔹 Project Highlight: Incrementality Testing Using Bayesian Structural Time Series (BSTS) 🔹
+### Incrementality Testing Using Bayesian Structural Time Series (BSTS) 
 
 Developed an incrementality testing framework to measure the causal impact of in-store media campaigns using **Bayesian Structural Time Series (BSTS)** models.
 
@@ -114,7 +114,7 @@ Python (PyMC3, Prophet, Statsmodels) | Bayesian Inference | Time-Series Forecast
 \#Bayesian \#CausalInference \#Incrementality \#BSTS \#MarketingAnalytics \#Experimentation \#DataScience \#Python
 
 
-### 🔹 Project Highlight: Real-Time Fraud Detection & AML Monitoring 🔹
+### Real-Time Fraud Detection & AML Monitoring 
 
 Traditional **rule-based AML systems** struggled with high false positives and slow detection, delaying investigations and increasing compliance risk. To solve this, I **developed and deployed ML-powered anomaly detection models** integrated into a real-time fraud monitoring pipeline.
 
