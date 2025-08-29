@@ -60,6 +60,7 @@ SQL (Snowflake, Redshift) | Python (Pandas, NumPy, SciPy, Scikit-learn, Statsmod
 
 \#Experimentation \#ABTesting \#CausalInference \#SQL \#Python \#Tableau \#Ecommerce \#ProductAnalytics \#DataScience
 
+---
 
 ### Basel III Regulatory Reporting Automation (Illimity Bank)  
  
@@ -113,6 +114,7 @@ Python (PyMC3, Prophet, Statsmodels) | Bayesian Inference | Time-Series Forecast
 
 \#Bayesian \#CausalInference \#Incrementality \#BSTS \#MarketingAnalytics \#Experimentation \#DataScience \#Python
 
+---
 
 ### Real-Time Fraud Detection & AML Monitoring 
 
