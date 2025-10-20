@@ -9,33 +9,6 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 
 ---
 
-## 🚀 What I Do  
-
-### 🏦 Credit & Financial Risk Modeling (FinTech/Banking)  
-- Developed **PD, LGD, EAD, EL models** using ML (XGBoost, Logistic Regression) aligned with **Basel III & IFRS-9**.  
-- Conducted **stress testing & scenario analysis** for portfolio resilience and capital optimization.  
-
-### 🔐 Fraud Analytics & AML Monitoring  
-- Built **real-time anomaly detection systems** in Python/Databricks, integrated with **AWS + SIEM**.  
-- Reduced fraud detection latency by **60%**, cutting false positives and accelerating investigations.  
-
-### 📊 Marketing Science & Experimentation (Tech/Product)  
-- Designed **incrementality testing frameworks** (Bayesian Structural Time Series, causal inference).  
-- Ran **A/B and multivariate experiments** on product flows and campaigns, quantifying **true lift**.  
-
-### ☁️ Data Engineering & Cloud Analytics  
-- Automated **ETL pipelines** with AWS Glue, Redshift, Snowflake, and Databricks.  
-- Delivered governed **data models** for both risk reporting and marketing analytics workflows.  
-
-### 📈 Visualization & BI Dashboards  
-- Built **Tableau, Power BI, and Looker dashboards** for portfolio risk monitoring, KPI tracking, and product experimentation.  
-
-### 🤝 Collaboration & Agile  
-- Partnered with cross-functional teams (Risk, Compliance, Marketing, Product, UX).  
-- Translated requirements into **Epics, acceptance criteria, and Jira deliverables** for scalable deployments.  
-
-
----
 
 ## 🏆 Featured Projects
 
