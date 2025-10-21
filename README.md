@@ -8,7 +8,18 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 - 🔬 **Currently:** Visiting Researcher – Data Science & Quantitative Finance at Boston University 
 
 ---
+## 🧩 Featured Projects
 
+| Project | Description | Tools | Impact |
+|----------|--------------|--------|--------|
+| **AD 715 Business Simulation** | AI-assisted, cloud-native simulation platform replacing Excel workflows | Django · Azure · Power BI · Copilot | +40% faster feedback |
+| **Flipkart Growth Analytics** | Consumer growth & payment automation roadmap powering $800M+ GMV | SQL · Power BI · A/B Testing | +22% conversion · +18% margin |
+| **Illimity Bank FinRisk Automation** | Automated Basel III & credit risk pipelines | AWS · Databricks · Snowflake · XGBoost | −40% latency · +28% accuracy |
+| **Sector Rotation Strategy** | Median rotation ETF research outperforming benchmark | Python · Pandas · Matplotlib | +23% growth vs baseline |
+| **AI-Driven Experimentation Engine** | Criteo-scale A/B analytics (FastAPI + LLM insights) | PySpark · DuckDB · LLM | −30% manual analysis time |
+| **Airbnb Zurich Analytics** | Price & rating prediction via regression & clustering | Python · Scikit-Learn · Seaborn | +33% forecast accuracy |
+
+-----
 
 ## 🏆 Featured Projects
 
