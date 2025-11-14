@@ -4,9 +4,8 @@ I'm a Data & Business Analyst with 5+ years of experience helping banks, fintech
 
 - 📍 Based in Boston, USA  
 - 🎓 MS in Applied Business Analytics (Boston University)  
-- 👩‍🔬 Former Research Assistant at BU (Prof. Pinsky, Quantitative Finance)  
-- 🔬 **Currently:** Visiting Researcher – Data Science & Quantitative Finance at Boston University 
-
+- 👩‍🔬 Researcher – Data Science at Boston University (Prof. Pinsky, Quantitative Finance)  
+- 🔬 **Currently:** Huntington National Bank - Product Manager
 ---
 ## 🏆 Featured Projects
 
