@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Aishwarya Malhotra
 
-I'm a Data & Business Analyst with 5+ years of experience helping banks, fintechs, and cross-functional teams turn complex data into actionable insights and robust solutions. My expertise lies at the intersection of **finance, analytics, and technology**—from building machine learning pipelines for credit risk to automating regulatory reporting with cloud tools.
+I'm a Data & Product Manager with 7+ years of experience helping banks, fintechs, and cross-functional teams turn complex data into actionable insights and robust solutions. My expertise lies at the intersection of **finance, analytics, and technology**—from building machine learning pipelines for credit risk to automating regulatory reporting with cloud tools.
 
 - 📍 Based in Boston, USA  
 - 🎓 MS in Applied Business Analytics (Boston University)  
